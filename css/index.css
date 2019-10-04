@@ -208,4 +208,73 @@ header nav a {
     background: dodgerblue;
 }
 
+.about{
+    padding-bottom: 30px;
+    border-bottom: 1px dashed grey;
+    padding-left: 25px;
+}
+
+.boxes{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    
+}
+
+.row1{
+    display: flex;
+
+}
+
+.row2{
+    display: flex;
+    
+}
+
+.boxes h2{
+    padding: 10px 0px;
+    
+}
+
+button{
+    margin: 30px 0px;
+    padding: 10px 25px;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid black;
+
+}
+
+.strategy .border1{
+    border: 1px dashed grey;
+    width: 93%;
+    margin-bottom: 30px;
+}
+
+.howWeWork .border2{
+    border: 1px dashed grey;
+    width: 93%;
+    margin-bottom: 30px;
+}
+
+.placesWeWork .border3{
+    border: 1px dashed grey;
+    width: 93%;
+    margin-bottom: 30px;
+}
+
+.Collaboration .border4{
+    border: 1px dashed grey;
+    width: 93%;
+    margin-bottom: 30px;
+}
+
+.bottomContent{
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+header{
+    margin: 0%;
+}
 
