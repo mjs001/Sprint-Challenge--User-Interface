@@ -214,7 +214,7 @@ header nav a {
     padding-left: 25px;
 }
 
-.boxes{
+.boxes2{
     display: flex;
     margin-top: 30px;
     flex-direction: column;
@@ -294,3 +294,28 @@ header{
     margin: 0%;
 }
 
+.home_nav:hover {
+text-decoration: underline;
+color: red;
+}
+
+.about_nav:hover {
+text-decoration: underline;
+color: orange;
+}
+
+
+.products_nav:hover {
+text-decoration: underline;
+color: green;
+}
+
+.blog_nav:hover {
+text-decoration: underline;
+color: blue;
+}
+
+.contact_nav:hover {
+    text-decoration: underline;
+    color: purple;
+    }
