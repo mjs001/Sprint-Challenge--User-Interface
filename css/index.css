@@ -66,6 +66,8 @@ p {
     line-height: 1.4;
 }
 
+*{box-sizing: border-box;}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -144,3 +146,176 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header{
+    display: flex;
+    align-items: baseline;
+    margin: 2%;
+    padding-bottom: 3%;
+}
+
+header nav{
+    padding-left: 6%;
+   
+}
+header nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0px 30px;
+}
+
+.photoBelowNav{
+    padding-bottom: 3%;
+}
+
+.middle-content .boxes .box1{
+    background: teal;
+}
+
+.middle-content .boxes .box2{
+    background: gold;
+}
+
+.middle-content .boxes .box3{
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4{
+    background: coral;
+}
+
+.middle-content .boxes .box5{
+    background: crimson;
+}
+
+.middle-content .boxes .box6{
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7{
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8{
+    background: hotpink;
+}
+
+.middle-content .boxes .box9{
+    background: indigo;
+}
+
+.middle-content .boxes .box10{
+    background: dodgerblue;
+}
+
+.about{
+    padding-bottom: 30px;
+    border-bottom: 1px dashed grey;
+    padding-left: 25px;
+}
+
+.boxes2{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    
+}
+
+.row1{
+    display: flex;
+
+}
+
+.row2{
+    display: flex;
+    
+}
+
+.boxes h2{
+    padding: 10px 0px;
+    
+}
+
+button{
+    margin: 30px 0px;
+    padding: 10px 25px;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid black;
+    animation-play-state: paused;
+    animation-name: GrowAndchangeBckgrColor;
+    animation-duration: 3s;
+}
+button:hover {
+    animation-play-state: running;
+}
+
+
+
+@keyframes GrowAndchangeBckgrColor{
+    0% {background-color: white}
+    0% {padding: 10px 25px;}
+    50% {background-color: lightsalmon;}
+    50% {padding: 20px 35px;}
+    100% {background-color: white;}
+    100% {padding: 10px 25px;}
+}
+
+.strategy .border1{
+    border: 1px dashed grey;
+    width: 93%;
+    margin-bottom: 30px;
+}
+
+.howWeWork .border2{
+    border: 1px dashed grey;
+    width: 93%;
+    margin-bottom: 30px;
+}
+
+.placesWeWork .border3{
+    border: 1px dashed grey;
+    width: 93%;
+    margin-bottom: 30px;
+}
+
+.Collaboration .border4{
+    border: 1px dashed grey;
+    width: 93%;
+    margin-bottom: 30px;
+}
+
+.bottomContent{
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+header{
+    margin: 0%;
+}
+
+.home_nav:hover {
+text-decoration: underline;
+color: red;
+}
+
+.about_nav:hover {
+text-decoration: underline;
+color: orange;
+}
+
+
+.products_nav:hover {
+text-decoration: underline;
+color: green;
+}
+
+.blog_nav:hover {
+text-decoration: underline;
+color: blue;
+}
+
+.contact_nav:hover {
+    text-decoration: underline;
+    color: purple;
+    }
